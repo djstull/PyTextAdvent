@@ -61,24 +61,23 @@ while charAction in ['INVALID']:
       time.sleep(1)
 
   elif charAction in ['b','B']:
-    print('What do you want to inspect?:')
-    print('A) The Bed')
-    print('B) The Bookshelf')
-    print('C) The Dwarf')
-    print('D) The Room')
-    charInspect = input ('Input:')
-    if charInspect in ['a','A']:
-      charAction = ('INVALID')
-      print('The bed you lay in is small, but soft. The bead spread is a bright red.')
-    elif charInspect in ['b','B']:
-      charAction = ('INVALID')
-      print('The bookshelf contains many books of various shapes and sizes. Many look old and mysterious.')
-    elif charInspect in ['c','C']:
+      print('What do you want to inspect?:')
+      print('A) The Bed')
+      print('B) The Bookshelf')
+      print('C) The Dwarf')
+      print('D) The Room')
+      charInspect = input ('Input:')
+      if charInspect in ['a','A']:
+        charAction = ('INVALID')
+        print('The bed you lay in is small, but soft. The bead spread is a bright red.')
+      elif charInspect in ['b','B']:
+        charAction = ('INVALID')
+        print('The bookshelf contains many books of various shapes and sizes. Many look old and mysterious.')
+      elif charInspect in ['c','C']:
         charAction = ('INVALID')
         print('The old dwarf sits at the foot of the bed. His face is red and stern. His long grey beard drapes across his lap.')
-    elif charInspect in ['d','D']:
+      elif charInspect in ['d','D']:
         charAction = ('INVALID')
         print('The room is full of dusty furnishings and cobwebs. Only you and the dwarf reside in the room.')
-    else:
-        print('Oh shit. Whatup?')
-        print('End of code.')
+      else:
+        print('Incorrect Input')
