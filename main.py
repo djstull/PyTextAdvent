@@ -1,6 +1,8 @@
 import time
 import random
 
+#Updated 8/24
+
 print('Please refer to README.txt before playing.\n')
 
 time.sleep(1)
@@ -48,6 +50,7 @@ while charAction in ['INVALID']:
   print('A) Speak')
   print('B) Inspect')
   print('C) Run')
+  print('D) End')
   charAction = input ('Input:')
 
   if charAction in ['a','A']:
@@ -81,3 +84,6 @@ while charAction in ['INVALID']:
         print('The room is full of dusty furnishings and cobwebs. Only you and the dwarf reside in the room.')
       else:
         print('Incorrect Input')
+  elif charAction in ['c','C']:
+    charAction = ('INVALID')
+    print('You feel too weak to run!')
