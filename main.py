@@ -3,7 +3,7 @@ import random
 
 #Updated 8/24
 
-print('Please refer to README.txt before playing.\n')
+print('Please refer to README.md before playing.\n')
 
 time.sleep(1)
 print('There is darkness, all around you. You have no idea where you are.')
